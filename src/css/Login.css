@@ -1,0 +1,33 @@
+.login__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login {
+  max-width: 400px;
+  background-color: rgb(223, 223, 223);
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.login h2 {
+  margin: 10px 20px;
+}
+
+.login button {
+  background-color: #3fc350;
+  color: white;
+  border: 0px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login button:hover {
+  background-color: #048014;
+}
